@@ -21,6 +21,15 @@
             "Dannehl\\Shipcloud\\": "src/"
         }
     },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dannehl\\Shipcloud\\ShipcloudServiceProvider"
+            ]
+        }
+    },
+
     "require-dev": {
         "vlucas/phpdotenv": "^2.2"
     }
