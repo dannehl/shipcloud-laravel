@@ -28,7 +28,7 @@
                 "Dannehl\\Shipcloud\\ShipcloudServiceProvider"
             ],
             "aliases": {
-                "Calculator": "Dannehl\\Shipcloud\\ShipcloudFacade"
+                "Shipcloud": "Dannehl\\Shipcloud\\ShipcloudFacade"
             }
         }
     },
