@@ -62,11 +62,11 @@ class Shipcloud
     {
         $class = new $api($this->options);
 
-        if (! method_exists($class,'post')) {
+        if (! method_exists($class,'create')) {
             throw new \Exception('Method ' . __FUNCTION__ . ' does not exists for class ' . $api);
         }
 
-        return $class->post($payload);
+        return $class->create($payload);
     }
 
     /**
@@ -80,11 +80,11 @@ class Shipcloud
     {
         $class = new $api($this->options);
 
-        if (! method_exists($class,'put')) {
+        if (! method_exists($class,'update')) {
             throw new \Exception('Method ' . __FUNCTION__ . ' does not exists for class ' . $api);
         }
 
-        return $class->put($id, $payload);
+        return $class->update($id, $payload);
     }
 
     /**
