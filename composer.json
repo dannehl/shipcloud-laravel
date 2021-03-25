@@ -1,0 +1,27 @@
+{
+    "name": "danehl/shipcloud-laravel",
+    "description": "Shipcloud API for Laravel 8",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dannehl",
+            "email": "dvid@dannehl.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^8.0",
+        "guzzlehttp/guzzle": "^7.3",
+        "ext-json": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Dannehl\\Shipcloud\\": "src/"
+        }
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^2.2"
+    }
+}
