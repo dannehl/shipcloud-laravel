@@ -26,7 +26,10 @@
         "laravel": {
             "providers": [
                 "Dannehl\\Shipcloud\\ShipcloudServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Calculator": "Dannehl\\Shipcloud\\ShipcloudFacade"
+            }
         }
     },
 
